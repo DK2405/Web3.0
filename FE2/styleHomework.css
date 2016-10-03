@@ -1,0 +1,38 @@
+
+
+nav:first-child {
+  background-color:  #D5B0AC;
+  background-position: center;
+  height:40px;
+  width:500px;
+  color:  #402E2A ;
+  font-weight: bold;
+  text-align: center;
+  margin: 26px;
+}
+
+nav:nth-child(2){
+  background-color:  #D5B0AC;
+  background-position: center;
+  height:40px;
+  width:100px;
+  color:  #402E2A ;
+  font-weight: bold;
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  padding-top: 10px;
+  background-position: center center center;
+
+}
+span:nth-child(n) {
+  background-color:  #D5B0AC;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* white border with opacity 50% */
+}
+span:hover {
+  background-color:  #9CD08F ;
+}
